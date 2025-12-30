@@ -1,15 +1,15 @@
-# Bookstore Web Application (Struts 2 + Spring 4 + Hibernate 4)
+# Bookstore Java (Struts 2 + Spring 4 + Hibernate 4)
 
-This is a simple bookstore web application developed using the Struts 2 + Spring 4 + Hibernate 4 framework. It allows users to perform CRUD operations on a collection of books stored in a MySQL database.
+Esta es una aplicación web de librería sencilla desarrollada utilizando el marco Struts 2 + Spring 4 + Hibernate 4. Permite a los usuarios realizar operaciones CRUD en una colección de libros almacenados en una base de datos MySQL.
 
-## Features
+## Caracteristicas
 
-- View a list of books
-- Add a new book
-- Edit an existing book
-- Delete a book
+- Ver una lista de libros
+- Agregar nuevos libros
+- Editar libros existentes
+- Eliminar libros
 
-## Technologies Used
+## Tecnologías utilizadas
 
 - Struts 2
 - JSP (JavaServer Pages)
@@ -18,54 +18,26 @@ This is a simple bookstore web application developed using the Struts 2 + Spring
 - MySQL
 - Maven
 
-## Project Structure
+## Requisitos previos
 
-- `src/main/java`: Contains Java source files for action classes, models, and DAOs.
-- `src/main/resources`: Contains Struts configuration file (`struts.xml`, `spring-config.xml`, `hibernate-cfg.xml`) and any other configuration files.
-- `src/main/webapp`: Contains JSP files, CSS, JavaScript, and other web resources.
-- `pom.xml`: Maven project configuration file.
+Antes de ejecutar la aplicación, asegúrese de tener instalado lo siguiente:
 
-## Prerequisites
-
-Before running the application, ensure you have the following installed:
-
-- Apache Tomcat (or any servlet container)
-- MySQL Database
+- Apache Tomcat (o cualquier contenedor de servlets)
+- MySQL
 - Java Development Kit (JDK)
 - Maven
 
-## Configuration
+## Configuración
 
-1. Configure your database connection settings in `src/main/resources/db.properties`.
-2. Ensure that your MySQL server is running.
-3. Deploy the application to your servlet container (e.g., Tomcat) using Maven.
+1. Configure los ajustes de conexión de su base de datos en `src/main/resources/db.properties`.
+2. Asegúrese de que su servidor MySQL esté funcionando.
+3. Implemente la aplicación en su contenedor de servlets (por ejemplo, Tomcat) usando Maven.
 
-## Usage
+## Uso
 
-1. Access the application through your web browser: `bookstore-struts2-spring-hibernate-1.0/bookList`.
-2. You can view the list of books, add new books, edit existing books, and delete books through the provided interface.
-
-## Development
-
-To contribute to the development of this project, follow these steps:
-
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature-branch`).
-3. Make your changes and commit them (`git commit -am 'Add new feature'`).
-4. Push your changes to the branch (`git push origin feature-branch`).
-5. Create a new Pull Request.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+1. Accede a la aplicación a través de tu navegador web: `bookstore-struts2-spring-hibernate-1.0/bookList`.
+2. Puede ver la lista de libros, agregar libros nuevos, editar libros existentes y eliminar libros a través de la interfaz proporcionada.
 
 ## Author
 
-Harshal Patil
-
-## Acknowledgements
-- [Spring Framework](https://spring.io/)
-- [Hibernate](https://hibernate.org/)
-- [Apache Struts](https://struts.apache.org/)
-- [MySQL](https://www.mysql.com/)
-- [Maven](https://maven.apache.org/)
+Felix Eduardo Etchegaray
