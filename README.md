@@ -38,6 +38,6 @@ Antes de ejecutar la aplicación, asegúrese de tener instalado lo siguiente:
 1. Accede a la aplicación a través de tu navegador web: `bookstore-struts2-spring-hibernate-1.0/bookList`.
 2. Puede ver la lista de libros, agregar libros nuevos, editar libros existentes y eliminar libros a través de la interfaz proporcionada.
 
-## Author
+## Autor
 
 Felix Eduardo Etchegaray
