@@ -1,4 +1,4 @@
-# Bookstore Java (Struts 2 + Spring 4 + Hibernate 4)
+# LibroSphere (Struts 2 + Spring 4 + Hibernate 4)
 
 Esta es una aplicación web de librería sencilla desarrollada utilizando el marco Struts 2 + Spring 4 + Hibernate 4. Permite a los usuarios realizar operaciones CRUD en una colección de libros almacenados en una base de datos MySQL.
 
